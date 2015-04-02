@@ -1,0 +1,77 @@
+15/03/23 09:36:08 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+15/03/23 09:36:08 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+15/03/23 09:36:09 WARN mapreduce.JobSubmitter: No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+15/03/23 09:36:09 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/03/23 09:36:09 INFO mapreduce.JobSubmitter: number of splits:2
+15/03/23 09:36:09 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1427124388749_0007
+15/03/23 09:36:10 INFO mapred.YARNRunner: Job jar is not present. Not adding any jar to the list of resources.
+15/03/23 09:36:10 INFO impl.YarnClientImpl: Submitted application application_1427124388749_0007
+15/03/23 09:36:10 INFO mapreduce.Job: The url to track the job: http://quickstart.cloudera:8088/proxy/application_1427124388749_0007/
+15/03/23 09:36:10 INFO mapreduce.Job: Running job: job_1427124388749_0007
+15/03/23 09:36:17 INFO mapreduce.Job: Job job_1427124388749_0007 running in uber mode : false
+15/03/23 09:36:17 INFO mapreduce.Job:  map 0% reduce 0%
+15/03/23 09:36:30 INFO mapreduce.Job:  map 50% reduce 0%
+15/03/23 09:36:31 INFO mapreduce.Job:  map 100% reduce 0%
+15/03/23 09:36:45 INFO mapreduce.Job:  map 100% reduce 100%
+15/03/23 09:36:46 INFO mapreduce.Job: Job job_1427124388749_0007 completed successfully
+15/03/23 09:36:46 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=45625
+		FILE: Number of bytes written=413335
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=97127
+		HDFS: Number of bytes written=51
+		HDFS: Number of read operations=9
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=22413
+		Total time spent by all reduces in occupied slots (ms)=12668
+		Total time spent by all map tasks (ms)=22413
+		Total time spent by all reduce tasks (ms)=12668
+		Total vcore-seconds taken by all map tasks=22413
+		Total vcore-seconds taken by all reduce tasks=12668
+		Total megabyte-seconds taken by all map tasks=22950912
+		Total megabyte-seconds taken by all reduce tasks=12972032
+	Map-Reduce Framework
+		Map input records=3834
+		Map output records=3834
+		Map output bytes=37951
+		Map output materialized bytes=45631
+		Input split bytes=244
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=45631
+		Reduce input records=3834
+		Reduce output records=3
+		Spilled Records=7668
+		Shuffled Maps =2
+		Failed Shuffles=0
+		Merged Map outputs=2
+		GC time elapsed (ms)=191
+		CPU time spent (ms)=3400
+		Physical memory (bytes) snapshot=678166528
+		Virtual memory (bytes) snapshot=2667728896
+		Total committed heap usage (bytes)=502792192
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=96883
+	File Output Format Counters 
+		Bytes Written=51
+15/03/23 09:36:46 INFO util.ExitUtil: Exiting with status 0
+[cloudera@quickstart Github]$ hadoop fs -cat out-dir/part-00000MEAN	2.26031
+VARIANCE	3.80912
+Number of Input	3834
+[cloudera@quickstart Github]$

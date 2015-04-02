@@ -1,0 +1,31 @@
+Thread 4: Time is 128212000.000000 and memory is 40960.000000
+Thread 3: Time is 64876000.000000 and memory is 40960.000000
+Thread 0: Time is 65906000.000000 and memory is 40960.000000
+Thread 4: Time is 71478000.000000 and memory is 40960.000000
+Thread 1: Time is 78197000.000000 and memory is 40960.000000
+Thread 6: Time is 83037000.000000 and memory is 40960.000000
+Thread 7: Time is 84613000.000000 and memory is 40960.000000
+Thread 8: Time is 86723000.000000 and memory is 40960.000000
+Thread 2: Time is 87210000.000000 and memory is 40960.000000
+Thread 5: Time is 89597000.000000 and memory is 40960.000000
+Thread 9: Time is 96948000.000000 and memory is 40960.000000
+Thread1Time is 664000.000000 and memory is 0.000000
+Thread4Time is 663000.000000 and memory is 0.000000
+Thread0Time is 661000.000000 and memory is 0.000000
+Thread6Time is 659000.000000 and memory is 0.000000
+Thread8Time is 650000.000000 and memory is 0.000000
+Thread7Time is 659000.000000 and memory is 0.000000
+Thread3Time is 644000.000000 and memory is 0.000000
+Thread9Time is 646000.000000 and memory is 0.000000
+Thread5Time is 612000.000000 and memory is 0.000000
+Thread2Time is 631000.000000 and memory is 0.000000
+Thread3Time is 696000.000000 and memory is 0.000000
+Thread6Time is 683000.000000 and memory is 0.000000
+Thread1Time is 667000.000000 and memory is 0.000000
+Thread2Time is 655000.000000 and memory is 0.000000
+Thread5Time is 661000.000000 and memory is 0.000000
+Thread7Time is 674000.000000 and memory is 0.000000
+Thread9Time is 663000.000000 and memory is 0.000000
+Thread8Time is 681000.000000 and memory is 0.000000
+Thread0Time is 777000.000000 and memory is 0.000000
+Thread4Time is 638000.000000 and memory is 0.000000
